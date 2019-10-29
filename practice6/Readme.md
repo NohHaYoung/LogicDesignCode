@@ -31,13 +31,12 @@ assign		six_digit_seg = { seg_left, seg_right, seg_left, seg_right, seg_left, se
 
 ## 결과
 ### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
-![WaveForm](LogicDesignCode/practice6/Figs/waveForm.PNG)
+![WaveForm](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice6/Figs/waveForm.PNG?raw=true)
 
 
 ### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
 `Please fill up your source`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU5ODYxMjEsLTE3MTUzMjA1OThdfQ
-==
+eyJoaXN0b3J5IjpbMjc5NjAyODQ3LC0xNzE1MzIwNTk4XX0=
 -->
