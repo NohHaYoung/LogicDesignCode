@@ -35,9 +35,11 @@ assign      six_digit_seg = { 4{7'b0000000}, seg_left, seg_right }
 
 
 ### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
-`일반 ![enter image description here](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice6/Figs/%EA%B8%B0%EB%B3%B81.jpg?raw=true)`
+`일반` ![enter image description here](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice6/Figs/%EA%B8%B0%EB%B3%B81.jpg)
+`Q1`
 
+`Q2`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2NTI0NTQsMjc5NjAyODQ3LC0xNzE1Mz
+eyJoaXN0b3J5IjpbMjk0MjA2NzMsMjc5NjAyODQ3LC0xNzE1Mz
 IwNTk4XX0=
 -->
