@@ -429,8 +429,8 @@ wire	[3:0]	o_right_min	;
 reg		o_mode		;
 reg		o_position	;
 
-controller	u_ctrl		(	.o_mode		( o_mode	),
-					.o_position	( o_position	),
+controller	u_ctrl		(	.o_mode		(		),
+					.o_position	( 		),
 					.o_sec_clk	( o_seg_clk	),
 					.o_min_clk	( o_min_clk	),
 					.i_max_hit_sec	( o_max_hit_min	),
@@ -459,25 +459,29 @@ double_fig_sep	u1_dfs		(
 					.o_left		( o_left_min	),
 					.o_right	( o_right_min	),
 					.i_double_fig	( o_min		));
+wire	[6:0] seg_left_sec	;
+wire	[6:0] seg_right_sec	;
 
 fnd_dec		u0_fnd_dec	(
-					.o_seg		( o_seg		) ,
+					.o_seg		( seg_left_sec	) ,
 					.i_num		( o_left_sec	));
 
 fnd_dec		u1_fnd_dec	(
-					.o_seg		( o_seg		) ,
+					.o_seg		( seg_right_sec	) ,
 					.i_num		( o_rigt_sec	));
+wire	[6:0] seg_left_min	;
+wire	[6:0] seg_right_min	;
 
 fnd_dec		u2_fnd_dec	(
-					.o_seg		( o_seg		) ,
+					.o_seg		( seg_left_min	) ,
 					.i_num		( o_left_min	));
 
 fnd_dec		u3_fnd_dec	(
-					.o_seg		( o_seg		) ,
+					.o_seg		( seg_right_min	) ,
 					.i_num		( o_right_min	));
 
 wire	[41:0]		six_digit_seg	;
-assign			six_digit_seg = { {2{7'b0000000}}, o_left_min, o_right_min, o_left_sec, o_right_sec};
+assign			six_digit_seg = { {2{7'b0000000}}, seg_left_min, seg_right_min, seg_left_sec, seg_right_sec};
 
 led_disp	u_led_disp(
 					.o_seg		( o_seg		),
