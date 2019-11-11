@@ -15,28 +15,46 @@
 : NCO(Numerical Controlled Oscillator) 입력 바꿔서 4초 간격으로 증가하는 코드 테스트
 
 ## 퀴즈
+
 ### 아래 코드 일부를 수정하여 다음을 구하시오
+
 ```verilog
 wire[41:0] six_digit_seg;
 assign      six_digit_seg = { 4{7'b0000000}, seg_left, seg_right }
 ```
+
 > Q1 - 고정 LED (왼쪽 4개) AAAA 출력
+
 : `AA_AA_00`, `AA_AA_01`, `AA_AA_02`, … 순으로 LED 변경
-`wire[41:0] six_digit_seg;
-assign		six_digit_seg = { 4{7'b1110111}, seg_left, seg_right	}`
+
+>  `wire[41:0] six_digit_seg;`
+
+`assign		six_digit_seg = { 4{7'b1110111}, seg_left, seg_right	}`
 
 > Q2 - 고정 LED 없이 2개의 LED 단위로 1초 Counter 값 표시 : `00_00_00`, `01_01_01`, `02_02_02`, … 순으로 LED 변경
-`wire[41:0] six_digit_seg;
-assign		six_digit_seg = { seg_left, seg_right, seg_left, seg_right, seg_left, segright}`
+
+> `wire[41:0] six_digit_seg;`
+
+`assign		six_digit_seg = { seg_left, seg_right, seg_left, seg_right, seg_left, segright}`
 
 ## 결과
+
 ### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
+
 ![WaveForm](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice6/Figs/waveForm.PNG?raw=true)
 
 
 ### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
-`Please fill up your source`
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5NjAyODQ3LC0xNzE1MzIwNTk4XX0=
--->
+`일반`
+
+![52](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice6/Figs/%EA%B8%B0%EB%B3%B81.jpg?raw=true)
+
+`Q1`
+
+![AAAA09](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice6/Figs/Q1%281%29.jpg?raw=true)
+
+`Q2`
+
+![121212](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice6/Figs/Q2%283%29.jpg?raw=true)
+

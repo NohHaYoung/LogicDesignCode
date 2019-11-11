@@ -126,7 +126,7 @@ always @(i_num) begin
 		4'b1000 : o_seg = 7'b111_1111		;
 		4'b1001 : o_seg = 7'b111_0011		;
 		default
-			o_seg = 7'b000_0000			;
+			o_seg = 7'b000_0000		;
 	endcase
 end
 endmodule
