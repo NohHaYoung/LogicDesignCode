@@ -301,11 +301,11 @@ debounce	u1_debounce(
 wire		sw2			;
 debounce	u2_debounce(
 		.o_sw		( sw2		),
-		.i_sw		( i_sw2		),
+		.i_sw		( sw2		),
 		.clk		( clk_100hz	));
 
 reg		o_mode			;
-always @(posedge i_sw0 or negedge rst_n) begin
+always @(posedge sw0 or negedge rst_n) begin
 	if(rst_n == 1'b0) begin
 		o_mode <= MODE_CLOCK;
 	end else begin
@@ -314,7 +314,7 @@ always @(posedge i_sw0 or negedge rst_n) begin
 end
 
 reg		o_position		;
-always @(posedge i_sw1 or negedge rst_n) begin
+always @(posedge sw1 or negedge rst_n) begin
 	if(rst_n == 1'b0) begin
 		o_position <= POS_SEC;
 	end else begin
@@ -340,12 +340,12 @@ always @(*) begin
 		MODE_SETUP : begin
 			case(o_position)
 				POS_SEC : begin
-					o_sec_clk = ~i_sw2;
+					o_sec_clk = ~sw2;
 					o_min_clk = 1'b0;
 				end
 				POS_MIN : begin
 					o_sec_clk = 1'b0;
-					o_min_clk = ~i_sw2;
+					o_min_clk = ~sw2;
 				end
 			endcase
 		end
@@ -433,8 +433,8 @@ controller	u_ctrl		(	.o_mode		(		),
 					.o_position	( 		),
 					.o_sec_clk	( o_seg_clk	),
 					.o_min_clk	( o_min_clk	),
-					.i_max_hit_sec	( o_max_hit_min	),
-					.i_max_hit_min	( o_max_hit_sec	),
+					.i_max_hit_sec	( o_max_hit_sec	),
+					.i_max_hit_min	( o_max_hit_min	),
 					.i_sw0		( i_sw0		),
 					.i_sw1		( i_sw1		),
 					.i_sw2		( i_sw2		),
@@ -468,7 +468,7 @@ fnd_dec		u0_fnd_dec	(
 
 fnd_dec		u1_fnd_dec	(
 					.o_seg		( seg_right_sec	) ,
-					.i_num		( o_rigt_sec	));
+					.i_num		( o_right_sec	));
 wire	[6:0] seg_left_min	;
 wire	[6:0] seg_right_min	;
 
