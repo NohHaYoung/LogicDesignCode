@@ -162,13 +162,13 @@ module	led_disp(
 				rst_n);
 
 output	[5:0]	o_seg_enb		;
-output			o_seg_dp		;
+output		o_seg_dp		;
 output	[6:0]	o_seg			;
 
-input	[41:0]	i_six_digit_seg	;
+input	[41:0]	i_six_digit_seg		;
 input	[5:0]	i_six_dp		;
-input			clk				;
-input			rst_n			;
+input		clk			;
+input		rst_n			;
 
 wire			gen_clk		;
 nco		u_nco(	.o_gen_clk	( gen_clk		),
