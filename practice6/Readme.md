@@ -2,8 +2,7 @@
 
 ## 실습 내용
 
-### **적외선 컨트롤러(IR Controller)**
-### 
+### **적외선 컨트롤러(IR Controller)** : 송신부와 수신부로
 
 ## 각 모듈 설명
 #### **Submodule 1 - ir_rx** : 
@@ -28,6 +27,6 @@
 ![#3 data : FD48B7](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzNDM1NjQ5LDQzNTU3NzM1NiwxMzUxNj
-Y2NzUyXX0=
+eyJoaXN0b3J5IjpbMTQ3OTA0ODYyNSw0MzU1NzczNTYsMTM1MT
+Y2Njc1Ml19
 -->
