@@ -10,8 +10,8 @@
 ## 각 모듈 설명
 #### **Submodule 1 - ir_rx**
 #### IDLE - Reference State
-#### LEADCODE - Custom & Data Code : counter9ms 4.5ms
-#### DATACODE - 32bit DATA
+#### LEADCODE  : cnt_high가 9ms이상, cnt_low가 4.5ms 이상이 되면, DATACODE 시작
+#### DATACODE - 32bit DATA : 데이터가 0에서 1로 바뀔 때 cnt32
 #### COMPLETE
 
 #### **Submodule 2 - fnd_dec** : 0~15에 해당하는 segment 출력값 정의
@@ -34,6 +34,6 @@
 ![#3 data : FD48B7](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTY0ODA0OSw4OTExNzc1MTYsNDM1NT
+eyJoaXN0b3J5IjpbLTU1MTA2MDcwMSw4OTExNzc1MTYsNDM1NT
 c3MzU2LDEzNTE2NjY3NTJdfQ==
 -->
