@@ -8,7 +8,7 @@
 #### NEC 적외선 통신규약 : LeaderCode(프레임의 모드 선택), CostomCode(특정 회사 코드), DataCode(송신데이터)
 
 ## 각 모듈 설명
-#### **Submodule 1 - ir_rx** : 
+#### **Submodule 1 - ir_rx** : 1us re
 
 #### **Submodule 2 - fnd_dec** : 0~15에 해당하는 segment 출력값 정의
 
@@ -30,6 +30,6 @@
 ![#3 data : FD48B7](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODk4MjIzNyw0MzU1NzczNTYsMTM1MT
-Y2Njc1Ml19
+eyJoaXN0b3J5IjpbLTIxNDQ4NzAyNzksNDM1NTc3MzU2LDEzNT
+E2NjY3NTJdfQ==
 -->
