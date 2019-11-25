@@ -10,7 +10,9 @@
 ## 각 모듈 설명
 #### **Submodule 1 - ir_rx**
 #### IDLE - Reference State
-#### LEADCODE - 
+#### LEADCODE - Custom & Data Code : 
+#### DATACODE - 32bit DATA
+#### COMPLETE
 
 #### **Submodule 2 - fnd_dec** : 0~15에 해당하는 segment 출력값 정의
 
@@ -32,6 +34,6 @@
 ![#3 data : FD48B7](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDY1ODc1Niw0MzU1NzczNTYsMTM1MT
+eyJoaXN0b3J5IjpbLTkwMjE3MTk4OSw0MzU1NzczNTYsMTM1MT
 Y2Njc1Ml19
 -->
