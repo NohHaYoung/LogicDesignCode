@@ -709,7 +709,7 @@ fnd_dec		u1_fnd_dec(
 				.i_num		( right_sec	));
 
 fnd_dec		u2_fnd_dec(
-				.o_seg		( seg_left_sec	),
+				.o_seg		( seg_left_min	),
 				.i_num		( left_min	));
 
 fnd_dec		u3_fnd_dec(
