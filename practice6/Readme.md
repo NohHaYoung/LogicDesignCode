@@ -19,9 +19,11 @@
 
 ### **FPGA 동작 사진**
 `POWER Button`
+![PowerButton Data : FD00FF](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%281%29.jpg?raw=true)
 
 `#`
+![enter image description here](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTY2Njc1Ml19
+eyJoaXN0b3J5IjpbNzA1OTYwNTAzLDEzNTE2NjY3NTJdfQ==
 -->
