@@ -58,3 +58,6 @@ assign      six_digit_seg = { 4{7'b0000000}, seg_left, seg_right }
 
 ![121212](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice6/Figs/Q2%283%29.jpg?raw=true)
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExOTg0OTgwNjZdfQ==
+-->
