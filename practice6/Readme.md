@@ -9,10 +9,10 @@
 
 ## 각 모듈 설명
 #### **Submodule 1 - ir_rx**
-#### IDLE - Reference State
-#### LEADCODE  : cnt_high가 9ms이상, cnt_low가 4.5ms 이상이 되면, state를 datacode로 바꿈.
+#### IDLE - Reference State : state를 leadcode로 바꾸고, 카운터를 0으로 리셋
+#### LEADCODE  : datacode가 들어오기 전 단계. cnt_high가 9ms이상, cnt_low가 4.5ms 이상이 되면, state를 datacode로 바꿈.
 #### DATACODE - 32bit DATA : 데이터가 0에서 1로 바뀔 때 1부터 32까지 세는 카운터(cnt32)에 1을 더하고 카운터가 32가 되면, state를 complete로 바꿈.
-#### COMPLETE
+#### COMPLETE :  받은 데이터를 출력. 다시 leadcode로 ㅂ
 
 #### **Submodule 2 - fnd_dec** : 0~15에 해당하는 segment 출력값 정의
 
@@ -34,6 +34,6 @@
 ![#3 data : FD48B7](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjgxMzY3MzgsODkxMTc3NTE2LDQzNT
-U3NzM1NiwxMzUxNjY2NzUyXX0=
+eyJoaXN0b3J5IjpbMTQ2ODUyNzM2NSw4OTExNzc1MTYsNDM1NT
+c3MzU2LDEzNTE2NjY3NTJdfQ==
 -->
