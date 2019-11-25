@@ -3,7 +3,7 @@
 ## 실습 내용
 
 ### **적외선 컨트롤러(IR Controller)**
-#### **Submodule 1 - ir_rx** : 
+#### **Submodule 1 - ir_rx** : 4가지 state(IDLE - ref. , LEADCODE - , DATACODE, COMPLEMENT)정의
 
 #### **Submodule 2 - fnd_dec** : 0~15에 해당하는 segment 출력값 정의
 
@@ -26,5 +26,5 @@
 ![#3 data : FD48B7](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjQ3NjQ2NiwxMzUxNjY2NzUyXX0=
+eyJoaXN0b3J5IjpbLTMyNjI2NjM4MCwxMzUxNjY2NzUyXX0=
 -->
