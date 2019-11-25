@@ -3,8 +3,7 @@
 ## 실습 내용
 
 ### **적외선 컨트롤러(IR Controller)**
-###**동작방법
-#### **Submodule 1** : 
+#### **Submodule 1 - ** : 
 
 #### **Submodule 2** : 
 
@@ -25,5 +24,5 @@
 ![#3 data : FD48B7](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTEzNjIwOCwxMzUxNjY2NzUyXX0=
+eyJoaXN0b3J5IjpbLTE2MDAxMDY5OTIsMTM1MTY2Njc1Ml19
 -->
