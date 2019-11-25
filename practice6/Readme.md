@@ -10,7 +10,7 @@
 ## 각 모듈 설명
 #### **Submodule 1 - ir_rx**
 #### IDLE - Reference State
-#### LEADCODE - Custom & Data Code : 데이터가 0에서 1로 변하는 순간 
+#### LEADCODE - Custom & Data Code : counter9ms 4.5ms
 #### DATACODE - 32bit DATA
 #### COMPLETE
 
@@ -34,6 +34,6 @@
 ![#3 data : FD48B7](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxMTc3NTE2LDQzNTU3NzM1NiwxMzUxNj
-Y2NzUyXX0=
+eyJoaXN0b3J5IjpbLTk4MTY0ODA0OSw4OTExNzc1MTYsNDM1NT
+c3MzU2LDEzNTE2NjY3NTJdfQ==
 -->
