@@ -3,11 +3,13 @@
 ## 실습 내용
 
 ### **적외선 컨트롤러(IR Controller)**
-#### **Submodule 1 - ** : 
+#### **Submodule 1 - ir_rx** : 
 
-#### **Submodule 2** : 
+#### **Submodule 2 - fnd_dec** : 
 
-#### **Top Module** : 
+#### **Submodule 3 - led_disp** : 
+
+#### **Top Module** :  IR Controller로 부터 DATA를 받아 7-segment에 해당하는DATA를 출력
 
 
 ## 결과
@@ -24,5 +26,5 @@
 ![#3 data : FD48B7](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDAxMDY5OTIsMTM1MTY2Njc1Ml19
+eyJoaXN0b3J5IjpbLTEzNTA3NTA4MjksMTM1MTY2Njc1Ml19
 -->
