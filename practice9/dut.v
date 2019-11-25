@@ -346,23 +346,23 @@ ir_rx		u_ir(
 			.rst_n		( rst_n		));
 
 fnd_dec		u_fnd_dec_0(
-			.o_seg		( seg1		),
+			.o_seg		( seg6		),
 			.i_num		( data[3:0]	));
 
 fnd_dec		u_fnd_dec_1(
-			.o_seg		( seg1		),
+			.o_seg		( seg5		),
 			.i_num		( data[7:4]	));
 
 fnd_dec		u_fnd_dec_2(
-			.o_seg		( seg1		),
+			.o_seg		( seg4		),
 			.i_num		( data[11:8]	));
 
 fnd_dec		u_fnd_dec_3(
-			.o_seg		( seg1		),
+			.o_seg		( seg3		),
 			.i_num		( data[15:12]	));
 
 fnd_dec		u_fnd_dec_4(
-			.o_seg		( seg1		),
+			.o_seg		( seg2		),
 			.i_num		( data[19:16]	));
 
 fnd_dec		u_fnd_dec_5(
