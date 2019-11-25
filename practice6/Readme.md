@@ -3,7 +3,7 @@
 ## 실습 내용
 
 ### **적외선 컨트롤러(IR Controller)**
-
+###**동작방법
 #### **Submodule 1** : 
 
 #### **Submodule 2** : 
@@ -18,12 +18,12 @@
 
 
 ### **FPGA 동작 사진**
-`POWER Button`
+`POWER Button data : FD00FF`
 ![PowerButton Data : FD00FF](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%281%29.jpg?raw=true)
 
-`#`
-![enter image description here](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
+`#3 data : FD48B7`
+![#3 data : FD48B7](https://github.com/NohHaYoung/LogicDesignCode/blob/master/practice9/figs/FPGA%282%29.jpg?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1OTYwNTAzLDEzNTE2NjY3NTJdfQ==
+eyJoaXN0b3J5IjpbLTUzMTEzNjIwOCwxMzUxNjY2NzUyXX0=
 -->
